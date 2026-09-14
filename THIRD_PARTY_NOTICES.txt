@@ -1,0 +1,154 @@
+# Third-party notices
+
+The active **Glass Rain** mode uses **Heartfelt** by Martijn Steinrucken (BigWings), 2017. The original shader is adapted to receive the website background and browser uniforms. Its raindrop/refraction formulas remain active; the optional cool colour grade is disabled so the user's selected website theme is not overwritten. The optional lightning branch is removed from the shader before compilation so weather cannot flash the reading surface.
+
+- Original: https://www.shadertoy.com/view/ltffzl
+- License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+- Local license copy: `vendor/Heartfelt-LICENSE.txt`
+
+The **Just Snow** mode uses the layered snowfall shader by Andrew Baldwin (`baldand`), 2013. The port samples the selected website background rather than replacing it.
+
+- Original: https://www.shadertoy.com/view/ldsGDn
+- License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+
+The **Fireflies** overlay adapts motion and glow ideas from the corresponding effect in **@basmilius/sparkle** by Bas Milius. It is ported into one dependency-free local canvas layer and recoloured for the website's restrained warm-spring palette.
+
+- Source: https://github.com/basmilius/sparkle
+- License: MIT
+- Local license copy: `vendor/Sparkle-LICENSE.txt`
+
+The **Windblown Sakura** overlay adapts the thin-plate flutter, tumble, drag, and wandering-wind ideas from **Sakura Realm** by Leonxlnx. The local version is a dependency-free Canvas2D interpretation that draws only translucent petals; it does not copy Sakura Realm's tree, sky, lighting, or scene background.
+
+- Source: https://github.com/Leonxlnx/sakura-realm
+- License: MIT
+- Local license copy: `vendor/Sakura-Realm-LICENSE.txt`
+
+The **Windblown Leaves** overlay adapts the 3D rotation, falling, and gradual leaf-colour ideas from **Falling Leaves** by Gianluca Truda. The local Canvas2D version adds a shared gust field and draws only translucent leaf silhouettes over the user's existing background.
+
+- Source: https://github.com/gianlucatruda/falling-leaves
+- License: MIT
+- Local license copy: `vendor/Falling-Leaves-LICENSE.txt`
+
+The shader source bundle retains an inactive **Fireworks** experiment based on Martijn Steinrucken's 2015 shader. It is not exposed in the weather menu because it reduced reading clarity during browser QA.
+
+- Original: https://www.shadertoy.com/view/lscGRl
+- License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+
+The **Water Light**, **Flowing Refraction**, and **Rain Ripples** modes are original lightweight GLSL implementations informed by three MIT-licensed WebGL water projects. They reuse no runtime dependency: only the general techniques of directional normal-like distortion, expanding drop waves, and caustic highlights are adapted for the selected website background.
+
+- Water ripple reference: https://github.com/taiyuuki/webgl-water-ripple (MIT)
+- Drop ripple reference: https://github.com/sirxemic/jquery.ripples (MIT)
+- Caustics reference: https://github.com/evanw/webgl-water (MIT)
+
+The **Star Network** mode adapts the moving node-and-link construction from **The Universe Within** by Martijn Steinrucken (BigWings), 2018. The local port reduces the number of layers and composites a warm mint-and-honey version over the selected website background.
+
+- Original: https://www.shadertoy.com/view/lscczl
+- License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+
+The **Floating Jellyfish** mode is a lightweight reading-background interpretation of the field of rising jellyfish shown in the Shadertoy work by Beautypi. The local implementation uses new procedural silhouettes and tentacles rather than copying its expensive ray-marched scene.
+
+- Visual reference: https://www.shadertoy.com/view/4sXBRn
+- Attribution identified from the archived Shadertoy page
+
+The **Falling-Star Afterglow** mode adapts the many independently moving light bodies in **Dying Universe** by Martijn Steinrucken (BigWings), 2015. Its local version removes the ray-marched ground and reflection bounces so the effect remains practical behind long-form reading.
+
+- Original: https://www.shadertoy.com/view/MllSDX
+- License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+
+The piano interaction uses **Splendid Grand Piano** Steinway samples.
+
+- Source: https://github.com/sfzinstruments/SplendidGrandPiano
+- License: Public Domain
+
+
+Falling-Leaves-LICENSE.txt
+MIT License
+
+Copyright (c) 2024 Gianluca Truda
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+Heartfelt-LICENSE.txt
+Rain by Rocksdanister licensed under
+Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+Source:
+https://github.com/rocksdanister/rain
+
+**********************************************************************************************
+
+Heartfelt - by Martijn Steinrucken aka BigWings - 2017
+Twitter:@The_ArtOfCode
+License Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+https://www.shadertoy.com/view/ltffzl
+
+**********************************************************************************************
+
+Mountain Surrounded With Fog by Stephan Seeber from Pexels
+https://www.pexels.com/photo/mountain-surrounded-with-fog-1772973/
+
+Rainfall icon by Icons8
+https://icons8.com/icon/19542/rainfall
+
+Sakura-Realm-LICENSE.txt
+MIT License
+
+Copyright (c) 2026 Leonxlnx
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+Sparkle-LICENSE.txt
+MIT License
+
+Copyright (c) 2020-2024 Bas Milius
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
